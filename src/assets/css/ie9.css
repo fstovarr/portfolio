@@ -14,6 +14,7 @@
 
 	.spotlights > section > .image {
 		float: left;
+		align-self: center;
 	}
 
 	.spotlights > section > .content {

@@ -8,6 +8,11 @@ import pic08 from '../assets/images/pic08.jpg'
 import pic09 from '../assets/images/pic09.jpg'
 import pic10 from '../assets/images/pic10.jpg'
 
+import family from '../assets/images/family.jpg'
+import cali from '../assets/images/cali2.jpg'
+import social from '../assets/images/social.jpeg'
+import dream from "../assets/images/dreams.jpg"
+
 const Landing = props => (
   <Layout>
     <Helmet>
@@ -18,31 +23,37 @@ const Landing = props => (
     <BannerLanding title="About me..." />
 
     <div id="main">
-      <section id="one">
-        <div className="inner">
-          <header className="major">
-            <h2>Fabio, the person</h2>
-          </header>
-          <p>
-            At 22 years old, I have been lived a lovely life. I'm a lifelong
-            learner. My main focus in these years has been in cultivating my
-            knowledge in several areas of life. At 15 years old, I learned to
-            code, and that changed my life. I was very interested in robotic,
-            software development, electronics, and several other technical
-            topics. Also, I love music, especially Latin music. That was the
-            motivation to learn dancing, playing a couple of instruments, the
-            history of some music genres, and learning how to produce music
-            someday. Another relevant aspect of my life is community education.
-            I worked for many years in a foundation, trying to enhance education
-            in marginal regions in my country.
-          </p>
-        </div>
-      </section>
       <section id="two" className="spotlights">
         <section>
-          <Link to="/generic" className="image">
-            <img src={pic08} alt="" />
-          </Link>
+          <div className="image">
+            <img src={family} alt="" />
+          </div>
+          <div className="content">
+            <div className="inner">
+              <header className="major">
+                <h3>Fabio, the person</h3>
+              </header>
+              <p>
+                At 22 years old, I have been lived a lovely life. I'm a lifelong
+                learner. My main focus in these years has been in cultivating my
+                knowledge in several areas of life. At 15 years old, I learned
+                to code, and that changed my life. I was very interested in
+                robotic, software development, electronics, and several other
+                technical topics. Also, I love music, especially Latin music.
+                That was the motivation to learn dancing, playing a couple of
+                instruments, the history of some music genres, and learning how
+                to produce music someday. Another relevant aspect of my life is
+                community education. I worked for many years in a foundation,
+                trying to enhance education in marginal regions in my country.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div className="image">
+            <img src={cali} alt="" />
+          </div>
           <div className="content">
             <div className="inner">
               <header className="major">
@@ -62,9 +73,9 @@ const Landing = props => (
           </div>
         </section>
         <section>
-          <Link to="/generic" className="image">
-            <img src={pic09} alt="" />
-          </Link>
+          <div className="image">
+            <img src={dream} alt="" />
+          </div>
           <div className="content">
             <div className="inner">
               <header className="major">
@@ -84,9 +95,9 @@ const Landing = props => (
           </div>
         </section>
         <section>
-          <Link to="/generic" className="image">
-            <img src={pic10} alt="" />
-          </Link>
+          <div className="image">
+            <img src={social} alt="" />
+          </div>
           <div className="content">
             <div className="inner">
               <header className="major">
