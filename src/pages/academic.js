@@ -4,9 +4,9 @@ import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 import BannerLanding from '../components/BannerLanding'
 
-import pic08 from '../assets/images/pic08.jpg'
-import pic09 from '../assets/images/pic09.jpg'
-import pic10 from '../assets/images/pic10.jpg'
+import iot from '../assets/images/iot.png'
+import ml from '../assets/images/ml.jpg'
+import se from '../assets/images/se.jpg'
 
 import celestini from '../assets/images/celestini.jpg'
 import PdfDocument from '../components/PdfDocument'
@@ -14,6 +14,12 @@ import ObliqueGrating from '../components/ObliqueGrating'
 import Ebbinghaus from '../components/Ebbinghaus'
 import MunkerIllusion from '../components/MunkerIllusion'
 import AmbientLight from '../components/AmbientLight'
+
+// const sie = "https://github.com/fstovarr/portfolio/blob/development/src/assets/documents/sie.pdf?raw=true"
+// const viola = "https://github.com/fstovarr/portfolio/blob/development/src/assets/documents/viola.pdf?raw=true"
+
+import sie from "file-loader!../assets/documents/sie.pdf"
+import viola from "file-loader!../assets/documents/viola.pdf"
 
 const images = [
   {
@@ -86,9 +92,9 @@ const Landing = props => (
 
       <section id="two" className="spotlights">
         <section>
-          <Link to="/generic" className="image">
-            <img src={pic08} alt="" />
-          </Link>
+          <div className="image">
+            <img src={ml} alt="" />
+          </div>
           <div className="content">
             <div className="inner">
               <p>
@@ -109,9 +115,9 @@ const Landing = props => (
           </div>
         </section>
         <section>
-          <Link className="image">
-            <img src={pic09} alt="" />
-          </Link>
+          <div className="image">
+            <img src={iot} alt="" />
+          </div>
           <div className="content">
             <div className="inner">
               <p>
@@ -134,9 +140,9 @@ const Landing = props => (
           </div>
         </section>
         <section>
-          <Link to="/generic" className="image">
-            <img src={pic10} alt="" />
-          </Link>
+          <div className="image">
+            <img src={se} alt="" />
+          </div>
           <div className="content">
             <div className="inner">
               <p>
@@ -250,7 +256,7 @@ const Landing = props => (
               className="col-12"
               style={{ textAlign: 'center', justifySelf: 'center' }}
             >
-              <PdfDocument file="https://github.com/fstovarr/portfolio/blob/development/src/assets/documents/sie.pdf?raw=true" />
+              <PdfDocument file={sie} />
             </div>
           </div>
         </div>
@@ -271,7 +277,7 @@ const Landing = props => (
               className="col-12"
               style={{ textAlign: 'center', justifySelf: 'center' }}
             >
-              <PdfDocument file="https://github.com/fstovarr/portfolio/blob/development/src/assets/documents/viola.pdf?raw=true" />
+              <PdfDocument file={viola} />
             </div>
           </div>
           <div className="content">
