@@ -15,26 +15,11 @@ import Ebbinghaus from '../components/Ebbinghaus'
 import MunkerIllusion from '../components/MunkerIllusion'
 import AmbientLight from '../components/AmbientLight'
 
-// const sie = "https://github.com/fstovarr/portfolio/blob/development/src/assets/documents/sie.pdf?raw=true"
-// const viola = "https://github.com/fstovarr/portfolio/blob/development/src/assets/documents/viola.pdf?raw=true"
+const sie = "https://github.com/fstovarr/portfolio/blob/development/src/assets/documents/sie.pdf?raw=true"
+const viola = "https://github.com/fstovarr/portfolio/blob/development/src/assets/documents/viola.pdf?raw=true"
 
-import sie from "file-loader!../assets/documents/sie.pdf"
-import viola from "file-loader!../assets/documents/viola.pdf"
-
-const images = [
-  {
-    original: 'https://picsum.photos/id/1018/1000/600/',
-    thumbnail: 'https://picsum.photos/id/1018/250/150/',
-  },
-  {
-    original: 'https://picsum.photos/id/1015/1000/600/',
-    thumbnail: 'https://picsum.photos/id/1015/250/150/',
-  },
-  {
-    original: 'https://picsum.photos/id/1019/1000/600/',
-    thumbnail: 'https://picsum.photos/id/1019/250/150/',
-  },
-]
+// import sie from "file-loader!../assets/documents/sie.pdf"
+// import viola from "file-loader!../assets/documents/viola.pdf"
 
 const Landing = props => (
   <Layout>
