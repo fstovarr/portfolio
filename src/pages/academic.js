@@ -10,6 +10,10 @@ import pic10 from '../assets/images/pic10.jpg'
 
 import celestini from '../assets/images/celestini.jpg'
 import PdfDocument from '../components/PdfDocument'
+import ObliqueGrating from '../components/ObliqueGrating'
+import Ebbinghaus from '../components/Ebbinghaus'
+import MunkerIllusion from '../components/MunkerIllusion'
+import AmbientLight from '../components/AmbientLight'
 
 const images = [
   {
@@ -215,7 +219,6 @@ const Landing = props => (
                   — Marconi Society
                 </span>
               </p>
-
               <span className="image right">
                 <div>
                   <img src={celestini} alt="" />
@@ -226,7 +229,6 @@ const Landing = props => (
                   </p>
                 </div>
               </span>
-
               <p>
                 Winners of Celestini Program: a competition which main idea is
                 empowering students to solve local issues using technology. My
@@ -243,8 +245,7 @@ const Landing = props => (
               <p>
                 I, as the project leader, was invited to Palo Alto, California
                 to the award ceremony in the year 2019.
-              </p>
-
+              </p>{' '}
               <p>
                 More information in{' '}
                 <a
@@ -267,6 +268,12 @@ const Landing = props => (
                 </a>
               </p>
             </div>
+            <div
+              className="col-12"
+              style={{ textAlign: 'center', justifySelf: 'center' }}
+            >
+              <PdfDocument file="https://github.com/fstovarr/portfolio/blob/master/src/assets/documents/sie.pdf?raw=true" />
+            </div>
           </div>
         </div>
       </div>
@@ -276,19 +283,104 @@ const Landing = props => (
           <header className="major">
             <h2>Cool projects</h2>
           </header>
-          <div style={{ maxHeight: 600 }}>
-            <PdfDocument />
-          </div>
         </div>
       </div>
 
-      <div className="content">
-        <div className="inner">
-          <header className="major">
-            <h2>Future steps</h2>
-          </header>
-        </div>
-      </div>
+      <section id="two" className="spotlights">
+        <section>
+          <div style={{ padding: 30 }}>
+            <div
+              className="col-12"
+              style={{ textAlign: 'center', justifySelf: 'center' }}
+            >
+              <PdfDocument file="https://github.com/fstovarr/portfolio/blob/master/src/assets/documents/viola.pdf?raw=true" />
+            </div>
+          </div>
+          <div className="content">
+            <div className="inner">
+              <h4>Viola Jones framework</h4>
+              <p>
+                It is an algorithm of Machine Learning to detect objects in
+                images. The most common use of this algorithm is detecting
+                faces.
+              </p>
+              <ul className="actions">
+                <li>
+                  <Link to="/generic" className="button">
+                    Learn more
+                  </Link>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div style={{ paddingRight: 30 }}>
+            <ObliqueGrating />
+          </div>
+          <div className="content" style={{ width: '55%' }}>
+            <div className="inner">
+              <h4>Optical illusions</h4>
+              <p>Instructions:</p>
+
+              <ul>
+                <li>Clic on image</li>
+              </ul>
+
+              <p>
+                You will see the blue horizontal lines as if they weren't
+                parallel, but if you clic again, you will see that actually they
+                are.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div style={{ paddingLeft: 30 }}>
+            <Ebbinghaus />
+          </div>
+          <div className="content" style={{ maxWidth: '40%' }}>
+            <div className="inner">
+              <p>Instructions: </p>
+              <ul>
+                <li>Clic on image</li>
+              </ul>
+
+              <p>You will see the left sphere smaller than the right one.</p>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div style={{ paddingLeft: 30 }}>
+            <MunkerIllusion />
+          </div>
+          <div className="content" style={{ width: '65%' }}>
+            <div className="inner">
+              <p>Instructions: </p>
+              <ul>
+                <li>Observe the colors of the spheres</li>
+              </ul>
+
+              <p>
+                You will see both spheres with different colors, but actually
+                both are the same color.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div style={{ padding: 30 }}>
+            <h4>Lighting in 3D models</h4>
+          </div>
+          <div className="content" style={{ paddingBottom: 30 }}>
+            <div className="inner" style={{ paddingLeft: 30 }}>
+              <AmbientLight />
+            </div>
+          </div>
+        </section>
+      </section>
     </div>
   </Layout>
 )

@@ -11,6 +11,7 @@ import ecobox from '../assets/images/portfolio1.jpg'
 import puntopay from '../assets/images/puntopay.jpg'
 import bunny from '../assets/images/bunnystudio.png'
 import welcome from '../assets/images/welcome.jpeg'
+import PdfDocument from '../components/PdfDocument'
 
 const works = [
   {
@@ -167,6 +168,14 @@ const Work = props => (
             because I want to learn about business, management, and
             entrepeneurship.
           </p>
+        </div>
+
+        <header className="major">
+          <h3>My CV</h3>
+        </header>
+
+        <div>
+          <PdfDocument />
         </div>
       </div>
     </div>

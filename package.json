@@ -4,18 +4,23 @@
   "version": "1.0.0",
   "author": "Fabio Tovar",
   "dependencies": {
+    "@loadable/component": "^5.14.1",
     "gatsby": "^2.19.5",
     "gatsby-plugin-manifest": "^2.2.38",
     "gatsby-plugin-offline": "^3.0.32",
     "gatsby-plugin-react-helmet": "^3.1.21",
     "gatsby-plugin-sass": "^2.1.27",
     "node-sass": "^4.13.1",
+    "p5": "^1.1.9",
     "react": "^16.12.0",
     "react-awesome-slider": "^4.1.0",
+    "react-color": "^2.19.3",
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
     "react-image-gallery": "^1.0.8",
-    "react-pdf": "^5.0.0"
+    "react-p5-wrapper": "^2.3.0",
+    "react-pdf": "^5.0.0",
+    "react-rangeslider": "^2.2.0"
   },
   "keywords": [
     "gatsby"

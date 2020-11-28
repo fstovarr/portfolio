@@ -1,10 +1,7 @@
 import React, { useState } from 'react'
-// import { Document,  } from 'react-pdf'
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack'
 
-import sie from 'file-loader!../assets/documents/dummy.pdf'
-
-export default function Test() {
+export default ({ file }) => {
   const [numPages, setNumPages] = useState(null)
   const [pageNumber, setPageNumber] = useState(1)
 
@@ -26,14 +23,16 @@ export default function Test() {
   }
 
   return (
-    <div style={{ position: 'relative' }}>
-      <Document file={sie} onLoadSuccess={onDocumentLoadSuccess}>
-        <Page height="400" pageNumber={pageNumber} />
-      </Document>
+    <>
+      <div style={{ position: 'relative', minHeight: 410 }}>
+        <Document file={file} onLoadSuccess={onDocumentLoadSuccess}>
+          <Page height="400" pageNumber={pageNumber} />
+        </Document>
+      </div>
       <p>
         Page {pageNumber || (numPages ? 1 : '--')} of {numPages || '--'}
       </p>
-      <div style={{ position: 'absolute', bottom: 0 }}>
+      <div>
         <button type="button" disabled={pageNumber <= 1} onClick={previousPage}>
           Previous
         </button>
@@ -45,6 +44,10 @@ export default function Test() {
           Next
         </button>
       </div>
-    </div>
+
+      <a href="https://github.com/fstovarr/portfolio/blob/master/src/assets/documents/sie.pdf?raw=true">
+        Download
+      </a>
+    </>
   )
 }
