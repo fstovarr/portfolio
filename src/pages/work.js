@@ -60,15 +60,15 @@ const Work = props => (
         </header>
 
         <p>
-          Fields of software development such as mobile applications,
-          web-applications, desktop applications, hardware controllers focused
-          on Internet of Things, among others, are the fields in which I have
+          Fields of software development such as mobile applications, web
+          applications, desktop applications, hardware controllers focused on
+          the Internet of Things, among others, are the areas in which I have
           broad knowledge and experience.
         </p>
 
         <p>
-          In the next carousel you will find my most relevant experiences in the
-          professional field of software engineering from 2017, when my
+          In the next carousel, you will find my most relevant experiences in
+          software engineering's professional field from 2017, when my
           professional life started.
         </p>
 
@@ -129,19 +129,18 @@ const Work = props => (
               <span className="institution">at BunnyStudio</span>
             </h3>
             <p>
-              Since Aug, 2020 I have been working at BunnyStudio as Full Stack
-              Engineer. My role is{' '}
-              <span style={{ fontStyle: 'italic' }}>Support developer</span>,
-              therefore I'm in charge of maintaining the quality of the platform
-              in a high level. Mainly, I have to reduce the number of problems
-              that the users could have working with us, and analyze some
-              problematic features of the platform.
+              Since Aug 2020, I have been working at BunnyStudio as a{' '}
+              <span style={{ fontStyle: 'italic' }}>Full Stack Engineer</span>.
+              My role is Support developer. Therefore I'm in charge of
+              maintaining the quality of the platform at a high level. Mainly, I
+              have to reduce the number of problems that the users could have
+              working with us and analyze some platform's problematic features.
             </p>
             <p>
               Currently, I'm working in a Machine Learning module based on
-              Natural Language Processing to classify automatically the incoming
-              problems of the plaftorm in order to get a better understanding of
-              which common problems we are having, and to be able to propose
+              Natural Language Processing to classify the incoming problems of
+              the platform automatically in order to get a better understanding
+              of which common issues we are facing and to be able to propose
               better solutions to solve them.
             </p>
           </div>
@@ -154,19 +153,19 @@ const Work = props => (
         <div>
           <p>
             I'm working hard to obtain the title of Senior Full Stack Developer.
-            My idea is to get this title in the next 2 years, and after that
-            reach the Head of Engineering position, or become in CTO.
+            My idea is to get this title in the next 2 years, and after that,
+            reach the Head of Engineering position or become CTO.
           </p>
           <p>
-            To get this knowledge, my company offer me a lot of opportunities to
-            learn through digital platforms, mentoring, shadowing and presential
-            events that could help me to improve my technical skills.
+            My company offers me opportunities to learn through digital
+            platforms, mentoring, shadowing, and presential events to get this
+            knowledge. That could help me to improve my technical skills.
           </p>
 
           <p>
-            Also, I'm planning to ask some shadowing sessions from the CEO,
+            I'm also planning to ask for some shadowing sessions from the CEO
             because I want to learn about business, management, and
-            entrepeneurship.
+            entrepreneurship.
           </p>
         </div>
 
@@ -175,7 +174,7 @@ const Work = props => (
         </header>
 
         <div>
-          <PdfDocument />
+          <PdfDocument file="https://github.com/fstovarr/portfolio/blob/master/src/assets/documents/cv.pdf?raw=true" />
         </div>
       </div>
     </div>

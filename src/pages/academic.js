@@ -52,26 +52,26 @@ const Landing = props => (
             </h2>
           </header>
           <p>
-            From the start of my secundary education, my dream was studying at
+            From the start of my secondary education, my dream was to study at
             Universidad Nacional de Colombia. I had heard a lot of magical and
-            interesting things about this university. When I reached my last
-            year, I was sure that I was to approve the exam that I needed to do
-            to start studying here. All the hard work I did in school was richly
-            rewarded, I had a good score in the test, thus could choose my
-            preferred carrer.
+            exciting things about this university. When I reached my last year,
+            I was sure that I would approve the exam that I needed to do to
+            start studying here. All the hard work I did in school was richly
+            rewarded. I had a good score on the test. Thus I could choose my
+            preferred career.
           </p>
           <p>
-            These 4 years have been marvelous, the amount of things I learned
-            here are unimaginable, not only with respect of my career, but also
-            with respect of the life. Also, the interest of the university to
-            build a better society is inspiring, I have strong fascinations
-            about these topics, and the different points of view that I have
-            known are invaluable.
+            These 4 years have been marvelous. The amount of things I learned
+            here is unimaginable, not only concerning my career but also
+            concerning life. Also, the university's interest in building a
+            better society is inspiring. I have intense fascinations about these
+            topics, and the different points of view that I have known are
+            invaluable.
           </p>
           <p>
             Now that I'm leaving this institution, I feel a little bit of
-            nostalgia and sadness, but I'm quite sure new challenges will come,
-            and I will learning wherever I will be.
+            nostalgia and sadness. Still, I'm quite sure new challenges will
+            come, and I will learn wherever I will be.
           </p>
         </div>
       </section>
@@ -93,57 +93,43 @@ const Landing = props => (
             <div className="inner">
               <p>
                 The strong abilities I have regarding programming and software
-                engineering are a powerful tool to explore some fields of my
-                carrer which are very interesting for me.
+                engineering are powerful tools to explore some fields of my
+                career that are very interesting for me.
               </p>
               <p>
                 The first of them is <b>Machine Learning</b>. Machine Learning
-                is a branch of computer science where the main goal is provide
-                to a computer machine of something similar to the human
-                intelligence. Since early semesters I was studying by myselft
-                this topic, taking online courses, reading blogs and books, and
-                I could learn many techniques, models and paradigms that allow
-                me solve some not-easy problems using a computer.
+                is a branch of computer science where the main goal is to
+                provide a computing machine of something similar to human
+                intelligence. Since early semesters I was studying this topic by
+                myself, taking online courses, reading blogs and books, and
+                learning many techniques, models, and paradigms that allow me to
+                solve some not-easy problems using a computer.
               </p>
-              <ul className="actions">
-                <li>
-                  <Link to="/generic" className="button">
-                    Learn more
-                  </Link>
-                </li>
-              </ul>
             </div>
           </div>
         </section>
         <section>
-          <Link to="/generic" className="image">
+          <Link className="image">
             <img src={pic09} alt="" />
           </Link>
           <div className="content">
             <div className="inner">
               <p>
-                Furthermore, I have been interested in <b>Internet of Things</b>
-                , that it's a field of the systems and electronics engineering,
-                whose its main vision is to build a world where humans and
-                robots are living in armony, even in the most simple daily
-                tasks.
+                Furthermore, I have been interested in the{' '}
+                <b>Internet of Things</b>. It's a field of systems and
+                electronics engineering whose central vision is to build a world
+                where humans and robots live in harmony, even in the most simple
+                daily tasks.
               </p>
               <p>
-                In the school, I used to play to build some electronic devices
-                using my knowledge of programming and using certain type of
-                simple microcontrollers. Also I had the opportunity to take a
-                course in Politecnico Gran Colombiano related with this topic,
-                in my last year of school because my good results in a
-                programming contest. This specific knowledge has allowed me to
-                get a couple of professional projects related to this area.
+                In school, I used to play to build some electronic devices using
+                my knowledge of programming and using a certain type of simple
+                microcontrollers. Also, I had the opportunity to take a course
+                in Politecnico Gran Colombiano related to this topic in my last
+                year of school because of my good results in a programming
+                contest. This specific knowledge has allowed me to get a couple
+                of professional projects related to this area.
               </p>
-              <ul className="actions">
-                <li>
-                  <Link to="/generic" className="button">
-                    Learn more
-                  </Link>
-                </li>
-              </ul>
             </div>
           </div>
         </section>
@@ -154,38 +140,30 @@ const Landing = props => (
           <div className="content">
             <div className="inner">
               <p>
-                Finally, <b>Software engineering</b> definitely is one my
-                strongests skills. Those skills have brought me positive things,
-                and have opened a lot of important opportunities in my life.
+                Finally, <b>Software engineering</b> definitely is one of my
+                strongest skills. Those skills have brought me positive things
+                and have opened a lot of meaningful opportunities in my life.
               </p>
               <p>
-                By this reason, I have taken a couple of online courses about
-                programming in several languages that I consider relevant, as{' '}
+                For this reason, I have taken a couple of online courses about
+                programming in several languages that I consider relevant, like{' '}
                 <code>Kotlin</code>, <code>Dart</code>, <code>Ruby</code>, among
                 others.
               </p>
               <p>
-                It's important to mention, that this interest motivated me to
-                take a subject in Universidad de los Andes, that is one of the
-                best universities in this field in Colombia. There, I strengthen
-                my knowledge related to mobile apps development, and the most
-                important thing is that I was invited by the professor to work
-                in his research group about mobile development. In the group, I
-                was working in a tool of statical analysis of code to bugs
-                detection in Kotlin.
+                It's important to mention that this interest motivated me to
+                take a subject at Universidad de los Andes, one of the best
+                universities in this field in Colombia. There, I strengthened my
+                knowledge related to mobile apps development. The most important
+                thing is that the professor was invited to work in his research
+                group about mobile development. In the group, I worked on a
+                statistical analysis tool to bug detection in Kotlin.
               </p>
               <p>
                 Unfortunately, I was only a couple of months working there
-                because the schedule of the research group overlaped with a
+                because the schedule of the research group overlapped with a
                 subject of my Undergraduate program.
               </p>
-              <ul className="actions">
-                <li>
-                  <Link to="/generic" className="button">
-                    Learn more
-                  </Link>
-                </li>
-              </ul>
             </div>
           </div>
         </section>
@@ -324,12 +302,12 @@ const Landing = props => (
               <p>Instructions:</p>
 
               <ul>
-                <li>Clic on image</li>
+                <li>Click on image</li>
               </ul>
 
               <p>
                 You will see the blue horizontal lines as if they weren't
-                parallel, but if you clic again, you will see that actually they
+                parallel, but if you click again, you will see that actually, they
                 are.
               </p>
             </div>
@@ -343,7 +321,7 @@ const Landing = props => (
             <div className="inner">
               <p>Instructions: </p>
               <ul>
-                <li>Clic on image</li>
+                <li>Click on image</li>
               </ul>
 
               <p>You will see the left sphere smaller than the right one.</p>
