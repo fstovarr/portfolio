@@ -174,7 +174,7 @@ const Work = props => (
         </header>
 
         <div>
-          <PdfDocument file="https://github.com/fstovarr/portfolio/blob/master/src/assets/documents/cv.pdf?raw=true" />
+          <PdfDocument file="https://github.com/fstovarr/portfolio/blob/development/src/assets/documents/cv.pdf?raw=true" />
         </div>
       </div>
     </div>

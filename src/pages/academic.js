@@ -250,7 +250,7 @@ const Landing = props => (
               className="col-12"
               style={{ textAlign: 'center', justifySelf: 'center' }}
             >
-              <PdfDocument file="https://github.com/fstovarr/portfolio/blob/master/src/assets/documents/sie.pdf?raw=true" />
+              <PdfDocument file="https://github.com/fstovarr/portfolio/blob/development/src/assets/documents/sie.pdf?raw=true" />
             </div>
           </div>
         </div>
@@ -271,7 +271,7 @@ const Landing = props => (
               className="col-12"
               style={{ textAlign: 'center', justifySelf: 'center' }}
             >
-              <PdfDocument file="https://github.com/fstovarr/portfolio/blob/master/src/assets/documents/viola.pdf?raw=true" />
+              <PdfDocument file="https://github.com/fstovarr/portfolio/blob/development/src/assets/documents/viola.pdf?raw=true" />
             </div>
           </div>
           <div className="content">

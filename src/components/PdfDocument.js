@@ -45,9 +45,7 @@ export default ({ file }) => {
         </button>
       </div>
 
-      <a href="https://github.com/fstovarr/portfolio/blob/master/src/assets/documents/sie.pdf?raw=true">
-        Download
-      </a>
+      <a href={file}>Download</a>
     </>
   )
 }
